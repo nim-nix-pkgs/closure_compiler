@@ -1,5 +1,5 @@
 {
-  description = ''Bindings for Closure Compiler web API.'';
+  description = ''Bindings to closure compiler web API'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,8 +9,8 @@
   
   inputs.src-closure_compiler-master.flake = false;
   inputs.src-closure_compiler-master.owner = "yglukhov";
-  inputs.src-closure_compiler-master.ref   = "refs/heads/master";
-  inputs.src-closure_compiler-master.repo  = "closure_compiler";
+  inputs.src-closure_compiler-master.ref   = "master";
+  inputs.src-closure_compiler-master.repo  = "closure_compiler.git";
   inputs.src-closure_compiler-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
