@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-closure_compiler-v0_3_5.flake = false;
+  inputs.src-closure_compiler-v0_3_5.ref   = "refs/tags/v0.3.5";
   inputs.src-closure_compiler-v0_3_5.owner = "yglukhov";
-  inputs.src-closure_compiler-v0_3_5.ref   = "v0_3_5";
   inputs.src-closure_compiler-v0_3_5.repo  = "closure_compiler.git";
   inputs.src-closure_compiler-v0_3_5.type  = "github";
   
