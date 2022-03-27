@@ -11,6 +11,7 @@
   inputs.src-closure_compiler-v0_3_4.ref   = "refs/tags/v0.3.4";
   inputs.src-closure_compiler-v0_3_4.owner = "yglukhov";
   inputs.src-closure_compiler-v0_3_4.repo  = "closure_compiler";
+  inputs.src-closure_compiler-v0_3_4.dir   = "";
   inputs.src-closure_compiler-v0_3_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
