@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/yglukhov/closure_compiler",
   "refs": [
-    "fatal: unable to access 'https://github.com/yglukhov/closure_compiler.git/': Error in the HTTP2 framing layer",
+    "fatal: unable to access 'https://github.com/yglukhov/closure_compiler.git/': Could not resolve host: github.com",
     ""
   ],
   "heads": []
